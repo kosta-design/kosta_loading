@@ -22,6 +22,5 @@ files {
     "webfonts/HARLOWSI_1.TTF",
     "audio.mp3",
     "loading.html",
-    "png.png",
-    "client/main.lua"
+    "png.png"
 }
