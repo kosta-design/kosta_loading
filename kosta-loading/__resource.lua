@@ -1,3 +1,14 @@
+fx_version 'cerulean'
+games { 'gta5' }
+
+author 'Kosta & aidanohart'
+version '1.1'
+description 'Simple & Highly customisable loading screen with a video!'
+
+loadscreen_manual_shutdown 'yes'
+loadscreen 'loading.html'
+client_script 'client/main.lua'
+
 files {
     "css/font.css",
     "css/plugins.css",
@@ -11,8 +22,6 @@ files {
     "webfonts/HARLOWSI_1.TTF",
     "audio.mp3",
     "loading.html",
-    "png.png"
+    "png.png",
+    "client/main.lua"
 }
-loadscreen 'loading.html'
-
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
